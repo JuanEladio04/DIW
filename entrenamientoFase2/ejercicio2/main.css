@@ -1,0 +1,20 @@
+#image{
+    display: inline;
+    text-align: right;
+}
+
+.titulos{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(165, 226, 235);
+    margin: 1em;
+}
+
+.content{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1em;
+}
+
+img{
+   width: 15%; 
+   text-align: left;
+}

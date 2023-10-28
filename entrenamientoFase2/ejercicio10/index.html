@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/d9c51a1842.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Noto+Serif:ital,wght@1,100&family=Roboto+Condensed:ital,wght@0,100;0,400;1,100;1,300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12">
+        <a class="navbar-brand" href="#">
+            <img src="img/d494mpr-533f4d93-3412-49c1-a07b-501d02963a9b.png" width="30" height="30"
+                class="d-inline-block align-top" alt="">
+            Centro Pokémon
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Información</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Comunidad
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Intercambios</a>
+                        <a class="dropdown-item" href="#">Combates</a>
+                        <a class="dropdown-item" href="#">Competitivo</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+                <button type="button" class="px-5 btn btn-info mx-3" data-toggle="modal" data-target="#loginModal">
+                    Login
+                </button>
+            </form>
+        </div>
+    </nav>
+
+    <!--Cuerpo-->
+    <div class="container-fluid p-0 col-12 justify-content-between m-0">
+        <!--Breadcrumb-->
+        <nav aria-label="breadcrumb bg-info">
+            <ol class="breadcrumb p-4 mx-auto">
+                <li class="breadcrumb-item"><a href="#">Centro Pokémon</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
+        <!--Carousel-->
+        <div id="carouselExampleInterval" class="carousel slide my-5 col-12 d-lg-block d-none mx-0 p-0"
+            data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    <img src="img/carousel/1366_2000.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="img/carousel/hqdefault.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel/pokemon-facil-dificil-atrapar.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--Targetas-->
+        <div class="container-fluid row justify-content-around col-12 m-0 p-0 text-center">
+            <div class="card col-lg-3 col-sm-12 my-3" style="width: 18rem;">
+                <img src="img/cards/descarga.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pokémon Silver</h5>
+                    <p class="card-text d-lg-block d-none">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Ratione, unde!</p>
+                    <a href="#" class="btn btn-info">Juega</a>
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-sm-12 my-3" style="width: 18rem;">
+                <img src="img/cards/descarga (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pokémon Yellow</h5>
+                    <p class="card-text d-lg-block d-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                        veniam dolore fugiat aliquid iusto. Minima dolores incidunt perspiciatis molestias veritatis.
+                    </p>
+                    <a href="#" class="btn btn-info">Juega</a>
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-sm-12 my-3" style="width: 18rem;">
+                <img src="img/cards/pokemongold-1639518454781.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pokémon Gold</h5>
+                    <p class="card-text d-lg-block d-none">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Iure excepturi sit nemo cupiditate perspiciatis adipisci, dolore quos consequatur at incidunt.
+                        Porro, accusamus fuga.</p>
+                    <a href="#" class="btn btn-info">Juega</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Tabla-->
+        <div class="container-fluid col-12 mx-auto my-3 bg-primary">
+            <table class="table table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table table-hover">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    </div>
+    <!--Footer-->
+    <div class="container-fluid row bg-dark m-0 mt-5 p-0 justify-content-around text-center">
+        <div class="container-fluid col-lg-4 col-sm-12 row text-light m-auto">
+            <a href="" class="col-12 p-3 text-light">Terminos legales</a>
+            <a href="" class="col-12 p-3 text-light">Contacto</a>
+            <a href="" class="col-12 p-3 text-light">Política de privacidad</a>
+        </div>
+        <div class="container-fluid col-lg-4 d-lg-inline-block d-none p-5 m-auto">
+            <img class="img-fluid" src="img/d494mpr-533f4d93-3412-49c1-a07b-501d02963a9b.png" style="width: 40%;">
+        </div>
+        <div class="container-fluid col-lg-4 col-sm-12 text-light justify-content-around m-auto p-5">
+            <p class="container-fluid row">
+                <i class="fa-brands fa-instagram fa-2x col-4"></i>
+                <i class="fa-brands fa-twitter fa-2x col-4 m-auto"></i>
+                <i class="fa-brands fa-youtube fa-2x col-4 m-auto"></i>
+            </p>
+        </div>
+    </div>
+
+    <!--Login modal-->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info">
+                    <h5 class="modal-title text-light" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">@</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Default"
+                                aria-describedby="inputGroup-sizing-default" placeholder="Usuario">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">*</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Default"
+                                aria-describedby="inputGroup-sizing-default" placeholder="Contraseña">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">No tengo cuenta</button>
+                    <button type="button" class="btn btn-info">Iniciar sesión</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

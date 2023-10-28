@@ -1,0 +1,20 @@
+#presentation{
+    background-color: rgb(118, 116, 228);
+    border-right: rgb(65, 0, 0) 1em solid;
+}
+
+.titulos{ 
+    background-color: rgb(44, 35, 124);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cData{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content{
+    border-top: rgb(125, 0, 0) 1em solid;
+}

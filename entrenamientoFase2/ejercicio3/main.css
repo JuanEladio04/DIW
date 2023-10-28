@@ -1,0 +1,63 @@
+#image{
+    display: inline;
+    text-align: right;
+}
+
+.titulos{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(165, 226, 235);
+    margin-bottom: 1em;
+    font-size: 30px;
+    width: 100%;
+    padding: 0.5em 0em ;
+}
+
+.content{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1em;
+}
+
+img{
+   width: 100%; 
+   text-align: left;
+}
+
+#lateralMenu{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    margin: none;
+    background-color: rgb(0, 132, 255);
+    align-self: auto;
+}
+
+#lateralMenu a{
+    display: block;
+    padding: 10% 5%;
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+    border-bottom: 1px white solid;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#lateralMenu a:hover{
+    display: block;
+    padding: 10% 5%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(89, 170, 247);
+    border-bottom: 1px white solid;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#personalData{
+    display: inline-block;
+    width: 70%;
+    overflow-y: scroll;
+    height: 625px;
+}
