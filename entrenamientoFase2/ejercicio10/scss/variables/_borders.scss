@@ -1,0 +1,27 @@
+// 
+// Borders
+// 
+
+$border-width: 0.125rem;
+$border-radius: 0rem;
+$border-radius-lg: 0.75rem;
+$border-radius-sm: 0.25rem;
+
+// Definir las variables de bordes
+$border-radius-lg: 30px;
+$border-radius-md-sm: 0;
+
+// Aplicar el borde redondeado a todos los componentes en dispositivos grandes
+@media (min-width: 1025px) {
+  .btn, .card, .alert, .form-control {
+    border-radius: $border-radius-lg;
+  }
+}
+
+// Aplicar el borde cuadrado a todos los componentes en dispositivos medianos y pequeños
+@media (max-width: 1024px) {
+  .btn, .card, .alert, .form-control {
+    border-radius: $border-radius-md-sm;
+  }
+}
+

@@ -1,0 +1,26 @@
+// 
+// Colors
+// 
+
+//- Override and add to color system
+$teal: #1abc9c;
+$dark-blue: #2c3e50;
+$myorange: #ff7700;
+
+$color1 : #68A8B0;
+$color2: #DE5047;
+$color3: #444850;
+$color4: #777D79;
+$color5: #62A887;
+
+//- Override primary color
+$primary: $color1;
+$secondary: $color2;
+$success: $color3;
+$info: $color4;
+$warning: $color5;
+$danger: blue;
+$light: white;
+$dark: orange;
+
+$min-contrast-ratio: 2.4;

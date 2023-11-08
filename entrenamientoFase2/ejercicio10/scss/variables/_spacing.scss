@@ -1,0 +1,17 @@
+// 
+// Spacing
+// 
+
+$navbar-height: 4.5rem;
+
+// Definir las variables de espaciado
+$spacing-md-sm: 10px;
+
+// Reducir el espaciado general entre elementos para dispositivos pequeños y medianos
+@media (max-width: 1024px) {
+  .btn, .card, .alert, .form-control {
+    margin: $spacing-md-sm;
+    padding: $spacing-md-sm;
+  }
+}
+
