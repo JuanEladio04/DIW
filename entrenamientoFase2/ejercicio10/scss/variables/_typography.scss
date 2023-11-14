@@ -38,24 +38,23 @@ $font-size-lg:                $font-size-base * 1.75;
 $font-family-menu: Arial, sans-serif;
 $font-family-general: Times, serif;
 
-// Aplicar la tipografía a los elementos correspondientes
 .menu, .card-title {
-  font-family: $font-family-menu;
+  font-family: $font-stack;
 }
 
 body {
-  font-family: $font-family-general;
+  font-family: $body-font;
 }
 
-// Modificar el tamaño de la letra en dispositivos pequeños y medianos
-@media (max-width: 768px) {
+@media (max-width: map-get($grid-breakpoints, 'md')) {
   body {
-    font-size: 14px;
+    font-size: $font-size-sm;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: map-get($grid-breakpoints, 'md')) and (max-width: map-get($grid-breakpoints, 'lg')) {
   body {
-    font-size: 16px;
+    font-size: $font-size-base;
   }
 }
+

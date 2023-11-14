@@ -4,14 +4,13 @@
 
 $navbar-height: 4.5rem;
 
-// Definir las variables de espaciado
 $spacing-md-sm: 10px;
 
-// Reducir el espaciado general entre elementos para dispositivos pequeños y medianos
-@media (max-width: 1024px) {
+@media (max-width: map-get($grid-breakpoints, 'lg')) {
   .btn, .card, .alert, .form-control {
-    margin: $spacing-md-sm;
-    padding: $spacing-md-sm;
-  }
+    margin: $spacer * .5;
+    padding: $spacer * .5;
+  } 
 }
+
 
